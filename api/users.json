@@ -261,6 +261,22 @@
       "salt": "$2a$10$JEr929oUzTDDGIMCbbE/Ne",
       "phone": "239123",
       "address": "123 Address"
+    },
+    {
+      "_id": "8012dc080376e02c18244e98a558d420",
+      "guid": "63ca7721-333b-4a14-9d07-83c93ffce0c2",
+      "password": "$2a$10$0i1PMqJaiIp6MbsaCvtWneRJ/E4J.26J4kGUpvOnkqSfbbK6Hq40C",
+      "isActive": true,
+      "balance": "3000",
+      "picture": "23923",
+      "age": "30",
+      "eyeColor": "Blue",
+      "name": "Min",
+      "company": "MiVet",
+      "email": "testemail@gmail.com",
+      "salt": "$2a$10$wnaJTZjFqq0anuXc2Vx0C.",
+      "phone": "2139392912",
+      "address": "123 Address"
     }
   ]
 }

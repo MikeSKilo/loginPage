@@ -45,7 +45,7 @@ const Auth = () => {
             eyeColor,
             company,
             address, confirmPassword } = form;
-        if (password === confirmPassword)
+        if (!isSignup || password === confirmPassword)
         {
             await Axios.post(`${endpointURL}/${isSignup ? 'signup' : 'login'}`, {
                 email, password, phoneNumber, avatarURL, fullName, balance,age, eyeColor, company, address
